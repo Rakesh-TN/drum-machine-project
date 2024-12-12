@@ -89,7 +89,7 @@ function App() {
     <main className="d-flex flex-column justify-content-center align-items-center min-vh-100 bg-primary">
       <div id="drum-machine">
         <div id="display" className="text-center ">
-          <h2 className="bg-primary-subtle rounded py-2">{activeKey}</h2>
+          <h2 className="bg-primary-subtle rounded displaySize py-2">{activeKey}</h2>
         </div>
         <div className="row bg-primary-subtle rounded p-4">
           {
